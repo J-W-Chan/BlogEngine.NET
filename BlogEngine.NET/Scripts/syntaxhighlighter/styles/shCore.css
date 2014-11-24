@@ -65,9 +65,11 @@
 .syntaxhighlighter table td.code {
   width: 100% !important;
 }
-.syntaxhighlighter table td.code .container {
+/*屏蔽这行是为了解决chrome下错行的现象,guog,2014-11-23*/
+/*.syntaxhighlighter table td.code .container {
   position: relative !important;
-}
+}*/
+
 .syntaxhighlighter table td.code .container textarea {
   box-sizing: border-box !important;
   position: absolute !important;

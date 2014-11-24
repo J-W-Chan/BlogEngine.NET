@@ -534,6 +534,39 @@
     <Content Include="Custom\Controls\Defaults\PostView.ascx" />
     <Content Include="Custom\Media\sample.mp4" />
     <Content Include="Custom\Media\sample.flv" />
+    <Content Include="Custom\Themes\SuperHero\CommentForm.ascx" />
+    <Content Include="Custom\Themes\SuperHero\CommentView.ascx" />
+    <Content Include="Custom\Themes\SuperHero\css\bootstrap.min.css" />
+    <Content Include="Custom\Themes\SuperHero\css\font-awesome.min.css" />
+    <Content Include="Custom\Themes\SuperHero\css\fonts.css" />
+    <Content Include="Custom\Themes\SuperHero\css\main.css" />
+    <Content Include="Custom\Themes\SuperHero\css\responsive.css" />
+    <Content Include="Custom\Themes\SuperHero\css\rtl.css" />
+    <Content Include="Custom\Themes\SuperHero\fonts\envy_code_r_vs-webfont.svg" />
+    <Content Include="Custom\Themes\SuperHero\fonts\fontawesome-webfont.svg" />
+    <Content Include="Custom\Themes\SuperHero\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Custom\Themes\SuperHero\fonts\LICENSE_TITILLIUMTEXT.txt" />
+    <Content Include="Custom\Themes\SuperHero\fonts\OpenSans-Italic-webfont.svg" />
+    <Content Include="Custom\Themes\SuperHero\fonts\OpenSans-Light-webfont.svg" />
+    <Content Include="Custom\Themes\SuperHero\fonts\OpenSans-Regular-webfont.svg" />
+    <Content Include="Custom\Themes\SuperHero\fonts\OpenSans-Semibold-webfont.svg" />
+    <Content Include="Custom\Themes\SuperHero\fonts\TitilliumText25L003-webfont.svg" />
+    <Content Include="Custom\Themes\SuperHero\fonts\TitilliumText25L005-webfont.svg" />
+    <Content Include="Custom\Themes\SuperHero\images\carrow.png" />
+    <Content Include="Custom\Themes\SuperHero\images\facebook.png" />
+    <Content Include="Custom\Themes\SuperHero\images\googleplus.png" />
+    <Content Include="Custom\Themes\SuperHero\images\logo.png" />
+    <Content Include="Custom\Themes\SuperHero\images\rss.png" />
+    <Content Include="Custom\Themes\SuperHero\images\sarrow.png" />
+    <Content Include="Custom\Themes\SuperHero\images\twitter.png" />
+    <Content Include="Custom\Themes\SuperHero\js\bootstrap.min.js" />
+    <Content Include="Custom\Themes\SuperHero\newsletter.html" />
+    <Content Include="Custom\Themes\SuperHero\PostNavigation.ascx" />
+    <Content Include="Custom\Themes\SuperHero\PostView.ascx" />
+    <Content Include="Custom\Themes\SuperHero\RelatedPosts.ascx" />
+    <Content Include="Custom\Themes\SuperHero\theme.png" />
+    <Content Include="Custom\Themes\SuperHero\theme.xml" />
+    <Content Include="Custom\Themes\SuperHero\WidgetContainer.ascx" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="FrontPageExample.aspx" />
@@ -581,6 +614,36 @@
     <Content Include="Scripts\angular-cookies.min.js.map" />
     <Content Include="Scripts\angular-animate.min.js.map" />
     <Content Include="Scripts\angular.min.js.map" />
+    <Content Include="Custom\Themes\SuperHero\fonts\envy_code_r_vs-webfont.eot" />
+    <Content Include="Custom\Themes\SuperHero\fonts\envy_code_r_vs-webfont.ttf" />
+    <Content Include="Custom\Themes\SuperHero\fonts\envy_code_r_vs-webfont.woff" />
+    <Content Include="Custom\Themes\SuperHero\fonts\envy_code_r_vs-webfont.woff2" />
+    <Content Include="Custom\Themes\SuperHero\fonts\fontawesome-webfont.eot" />
+    <Content Include="Custom\Themes\SuperHero\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Custom\Themes\SuperHero\fonts\fontawesome-webfont.woff" />
+    <Content Include="Custom\Themes\SuperHero\fonts\FontAwesome.otf" />
+    <Content Include="Custom\Themes\SuperHero\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Custom\Themes\SuperHero\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Custom\Themes\SuperHero\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Custom\Themes\SuperHero\fonts\OpenSans-Italic-webfont.eot" />
+    <Content Include="Custom\Themes\SuperHero\fonts\OpenSans-Italic-webfont.ttf" />
+    <Content Include="Custom\Themes\SuperHero\fonts\OpenSans-Italic-webfont.woff" />
+    <Content Include="Custom\Themes\SuperHero\fonts\OpenSans-Light-webfont.eot" />
+    <Content Include="Custom\Themes\SuperHero\fonts\OpenSans-Light-webfont.ttf" />
+    <Content Include="Custom\Themes\SuperHero\fonts\OpenSans-Light-webfont.woff" />
+    <Content Include="Custom\Themes\SuperHero\fonts\OpenSans-Regular-webfont.eot" />
+    <Content Include="Custom\Themes\SuperHero\fonts\OpenSans-Regular-webfont.ttf" />
+    <Content Include="Custom\Themes\SuperHero\fonts\OpenSans-Regular-webfont.woff" />
+    <Content Include="Custom\Themes\SuperHero\fonts\OpenSans-Semibold-webfont.eot" />
+    <Content Include="Custom\Themes\SuperHero\fonts\OpenSans-Semibold-webfont.ttf" />
+    <Content Include="Custom\Themes\SuperHero\fonts\OpenSans-Semibold-webfont.woff" />
+    <Content Include="Custom\Themes\SuperHero\fonts\TitilliumText25L003-webfont.eot" />
+    <Content Include="Custom\Themes\SuperHero\fonts\TitilliumText25L003-webfont.ttf" />
+    <Content Include="Custom\Themes\SuperHero\fonts\TitilliumText25L003-webfont.woff" />
+    <Content Include="Custom\Themes\SuperHero\fonts\TitilliumText25L005-webfont.eot" />
+    <Content Include="Custom\Themes\SuperHero\fonts\TitilliumText25L005-webfont.ttf" />
+    <Content Include="Custom\Themes\SuperHero\fonts\TitilliumText25L005-webfont.woff" />
+    <Content Include="Custom\Themes\SuperHero\site.master" />
     <None Include="Scripts\jquery-2.1.1.intellisense.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-dj.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-er.js" />
@@ -2214,6 +2277,12 @@
     </Compile>
     <Compile Include="contact.aspx.designer.cs">
       <DependentUpon>contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Custom\Themes\SuperHero\site.master.cs">
+      <DependentUpon>site.master</DependentUpon>
+    </Compile>
+    <Compile Include="Custom\Themes\SuperHero\site.master.designer.cs">
+      <DependentUpon>site.master</DependentUpon>
     </Compile>
     <Compile Include="default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
