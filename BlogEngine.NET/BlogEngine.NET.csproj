@@ -660,6 +660,7 @@
     <Content Include="Custom\Themes\SuperHero\fonts\TitilliumText25L005-webfont.ttf" />
     <Content Include="Custom\Themes\SuperHero\fonts\TitilliumText25L005-webfont.woff" />
     <Content Include="Custom\Themes\SuperHero\site.master" />
+    <None Include="Properties\PublishProfiles\PublishConfig.pubxml" />
     <None Include="Scripts\jquery-2.1.1.intellisense.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-dj.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-er.js" />
@@ -2770,7 +2771,6 @@
     <Folder Include="App_Data\datastore\extensions\" />
     <Folder Include="App_Data\files\avatars\" />
     <Folder Include="App_Data\packages\SimpleBlog.1.1.0\" />
-    <Folder Include="Properties\PublishProfiles\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

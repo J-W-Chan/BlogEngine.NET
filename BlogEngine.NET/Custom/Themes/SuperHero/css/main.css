@@ -707,31 +707,36 @@ table {
 
 /*[23.search]*/
 .search {
-    padding: 4px;
-    background: #fff;
+    /* padding: 4px; */
+    /* background: #fff; */
 }
-
-    .search input[type=text] {
-        background-color: #fff;
-        border: none;
-        padding: 2%;
-        height: 40px;
-        width: 75%;
-        outline: none !important;
+    .search #searchbox{
+        margin-bottom:0;
     }
-
+    .search .panel-body{
+        padding:0;
+    }
+    .search input[type=text] {
+        /* background-color: #fff; */
+        /* border: none;
+        padding: 2%;
+        height: 40px; */
+        /* width: 75%; */
+        /* outline: none !important; */
+    }
+   
     .search input[type=button] {
-        border: none;
+        /* border: none;
         padding: 0;
-        height: 40px;
-        width: 25%;
-        background-color: #428bca;
-        color: #fff;
-        border-radius: 4px;
+        height: 40px; */
+        /* width: 25%; */
+        /* background-color: #428bca; */
+        /* color: #fff; */
+        /* border-radius: 4px; */
     }
 
         .search input[type=button]:hover {
-            background-color: #3276b1;
+            /* background-color: #3276b1; */
         }
 
 /*[24.tagcloud]*/

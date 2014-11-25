@@ -52,18 +52,35 @@ namespace App_Code.Controls
                            ? HttpUtility.HtmlEncode(this.Context.Request.QueryString["q"])
                            : BlogSettings.Instance.SearchDefaultText;
             var sb = new StringBuilder();
-            sb.AppendLine("<div id=\"searchbox\">");
-            sb.Append("<label for=\"searchfield\" style=\"display:none\">Search</label>");
+            //sb.AppendLine("<div id=\"searchbox\">");
+            //sb.Append("<label for=\"searchfield\" style=\"display:none\">Search</label>");
+            //sb.AppendFormat(
+            //    "<input type=\"text\" value=\"{0}\" id=\"searchfield\" onkeypress=\"if(event.keyCode==13) return BlogEngine.search('{1}')\" onfocus=\"BlogEngine.searchClear('{2}')\" onblur=\"BlogEngine.searchClear('{2}')\" />",
+            //    text,
+            //    Utils.RelativeWebRoot,
+            //    text.Replace("'", "\\'"));
+            //sb.AppendFormat(
+            //    "<input type=\"button\" value=\"{0}\" id=\"searchbutton\" onclick=\"BlogEngine.search('{1}');\" onkeypress=\"BlogEngine.search('{1}');\" />",
+            //    BlogSettings.Instance.SearchButtonText,
+            //    Utils.RelativeWebRoot);
+            sb.AppendLine("<div id=\"searchbox\" class=\"form-group\">");
+            //sb.Append("<label for=\"searchfield\" class=\"control-label\">Search</label>");
+            sb.Append("<div class=\"input-group\">");
             sb.AppendFormat(
-                "<input type=\"text\" value=\"{0}\" id=\"searchfield\" onkeypress=\"if(event.keyCode==13) return BlogEngine.search('{1}')\" onfocus=\"BlogEngine.searchClear('{2}')\" onblur=\"BlogEngine.searchClear('{2}')\" />",
+                "<input type=\"text\" class=\"form-control input-lg\" placeholder=\"{0}\" id=\"searchfield\" onkeypress=\"if(event.keyCode==13) return BlogEngine.search('{1}')\" />",
                 text,
                 Utils.RelativeWebRoot,
                 text.Replace("'", "\\'"));
+            sb.Append("<span class=\"input-group-btn\">");
+
             sb.AppendFormat(
-                "<input type=\"button\" value=\"{0}\" id=\"searchbutton\" onclick=\"BlogEngine.search('{1}');\" onkeypress=\"BlogEngine.search('{1}');\" />",
+                "<button type=\"button\" class=\"btn btn-success btn-lg\" id=\"searchbutton\" onclick=\"BlogEngine.search('{1}');\" onkeypress=\"BlogEngine.search('{1}');\" >" +
+                    "<span class=\"glyphicon glyphicon-search\"></span>" +
+                "</button>",
                 BlogSettings.Instance.SearchButtonText,
                 Utils.RelativeWebRoot);
-
+            sb.Append("</span>");
+            sb.AppendLine("</div>");
             if (BlogSettings.Instance.EnableCommentSearch && BlogSettings.Instance.ShowIncludeCommentsOption)
             {
                 var check = this.Context.Request.QueryString["comment"] != null ? "checked=\"checked\"" : string.Empty;
