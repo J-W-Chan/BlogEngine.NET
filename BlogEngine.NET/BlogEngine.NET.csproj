@@ -267,9 +267,6 @@
     <Content Include="admin\editors\tinymce\skins\lightgray\fonts\tinymce.eot" />
     <Content Include="admin\editors\tinymce\skins\lightgray\fonts\tinymce.ttf" />
     <Content Include="admin\editors\tinymce\skins\lightgray\fonts\tinymce.woff" />
-    <None Include="App_Data\PublishProfiles\be.pubxml" />
-    <None Include="App_Data\PublishProfiles\bespa - FTP.pubxml" />
-    <None Include="App_Data\PublishProfiles\bespa - Web Deploy.pubxml" />
     <Content Include="AppCode\Wlw\TagMiniView.aspx" />
     <Content Include="AppCode\Wlw\wlw.css" />
     <Content Include="App_Data\posts\ec263a41-af90-4bdc-be2e-3b3ade12f6e5.xml" />
@@ -2299,6 +2296,7 @@
     </Compile>
     <Compile Include="Custom\Themes\SuperHero\site.master.cs">
       <DependentUpon>site.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Custom\Themes\SuperHero\site.master.designer.cs">
       <DependentUpon>site.master</DependentUpon>
