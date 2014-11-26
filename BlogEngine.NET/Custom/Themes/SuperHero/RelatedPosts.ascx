@@ -1,12 +1,23 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" EnableViewState="false" Inherits="BlogEngine.Core.Web.Controls.RelatedPostsBase" %>
-<div id="relatedPosts" class="related-posts well-global">
-    <h3 class="well-global-title"><%=Resources.labels.relatedPosts %></h3>
-    <ul class="list-unstyled">
+<div id="relatedPosts" class="panel panel-success  hidden-xs">
+    <div class="panel-heading">
+        <h3>
+            <i class="fa fa-chain">&nbsp;
+            </i>
+            <%=Resources.labels.relatedPosts %>
+        </h3>
+    </div>
+
+    <div class="list-group">
         <%foreach (var item in RelatedPostList)
           {%>
-        <li><a href="<%=item.Link %>"><%=item.Title %></a>
-            <div><small class="text-muted"><%=item.Description %></small></div>
-        </li>
+        <a href="<%=item.Link %>" class="list-group-item">
+            <h4 class="list-group-item-heading"><span class="text-success"><%=item.Title %></span></h4>
+            <p class="list-group-item-text"><%=item.Description %></p>
+        </a>
         <% } %>
-    </ul>
+    </div>
+
 </div>
+
+

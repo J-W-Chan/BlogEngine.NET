@@ -642,7 +642,7 @@
                 else
                 {
                     phAddComment.Visible = false;
-                    lbCommentsDisabled.Visible = true;
+                    //lbCommentsDisabled.Visible = true;
                 }
             }
 
